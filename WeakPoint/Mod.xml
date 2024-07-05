@@ -1,0 +1,91 @@
+<Mod>
+	<Name>WeakPoint</Name>
+	<Author>Goki</Author>
+	<Version>0.1.16</Version>
+	
+	<Description>Add a trigger "Shocked".</Description>
+	
+	<Icon name="icon" />
+
+	<WorkshopThumbnail name="thumb" />
+	
+	<Debug>false</Debug>
+
+	<MultiplayerCompatible>true</MultiplayerCompatible>
+	
+	<Assemblies>
+		<Assembly path="WeakPoint_assem.dll" />
+	</Assemblies>
+	
+	<Blocks>
+	</Blocks>
+
+	<Entities>
+		<Entity path="redsphere.xml"/>
+	</Entities>
+
+	<Triggers>
+		<Trigger>
+			<Name>None Team Shocked</Name>
+			<ID>1</ID>
+			<AvailableOn>
+				<AllOfficialEntities />
+				<AllModdedEntities />
+			</AvailableOn>
+		</Trigger>
+
+		<Trigger>
+			<Name>Red Team Shocked</Name>
+			<ID>2</ID>
+			<AvailableOn>
+				<AllOfficialEntities />
+				<AllModdedEntities />
+			</AvailableOn>
+		</Trigger>
+
+		<Trigger>
+			<Name>Grean Team Shocked</Name>
+			<ID>3</ID>
+			<AvailableOn>
+				<AllOfficialEntities />
+				<AllModdedEntities />
+			</AvailableOn>
+		</Trigger>
+
+		<Trigger>
+			<Name>Orange Team Shocked</Name>
+			<ID>4</ID>
+			<AvailableOn>
+				<AllOfficialEntities />
+				<AllModdedEntities />
+			</AvailableOn>
+		</Trigger>
+
+		<Trigger>
+			<Name>Blue Team Shocked</Name>
+			<ID>5</ID>
+			<AvailableOn>
+				<AllOfficialEntities />
+				<AllModdedEntities />
+			</AvailableOn>
+		</Trigger>
+	</Triggers>
+
+	<Events>
+	</Events>
+
+	<Keys>
+	</Keys>
+
+	<Resources>
+		<Texture name="icon" path="icon.png" />
+		<Texture name="thumb" path="thumb.png" />
+		<Mesh name="SphereMesh" path="sphere.obj" />
+		<Texture name="SphereTex" path="red.png" />
+		<Texture name="cross" path="cross.png" />
+		<AssetBundle name="effects" path="effects.assetbundle" />
+	</Resources>
+
+<ID>3cf537c4-81eb-4aa3-a3d2-55517f3e306f</ID>
+
+</Mod>

@@ -1,0 +1,38 @@
+<Entity>
+    <Name>DON'T USE!</Name>
+    <ID>1</ID>
+    <Debug>false</Debug>
+
+	<Mesh name="SphereMesh">
+		<Position x="0.0" y="0.0" z="0.9" />
+		<Rotation x="90.0" y="0.0" z="0.0" />
+		<Scale x="0.8" y="0.8" z="0.8" />
+	</Mesh>
+
+    <Texture name="SphereTex" />
+	
+	<Icon name="cross" />
+
+    <Category>Primitives</Category>
+
+	<Colliders>
+		<SphereCollider>
+			<Position x="0.0" y="0.0" z="0.9" />
+			<Radius>0.8</Radius>
+		</SphereCollider>
+	</Colliders>
+
+	<Scale canScale="true" uniformScale="false" />
+
+	<CanPick>true</CanPick>
+
+	<ShowPhysicsToggle>true</ShowPhysicsToggle>
+
+    <Triggers>
+        <Trigger>LevelStart</Trigger>
+        <Trigger>Activate</Trigger>
+        <Trigger>Deactivate</Trigger>
+        <Trigger>Variable</Trigger>
+	</Triggers>
+</Entity>
+
